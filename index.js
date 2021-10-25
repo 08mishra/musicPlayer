@@ -85,88 +85,8 @@ let track_list = [{
         path: 'music/16.mp3'
     },
 
-
     {
         path: 'music/17.mp3'
-    },
-
-
-    {
-        path: 'music/18.mp3'
-    },
-
-
-    {
-        path: 'music/19.mp3'
-    },
-
-    {
-        path: 'music/20.mp3'
-    },
-
-    {
-        path: 'music/21.mp3'
-    },
-
-
-    {
-        path: 'music/22.mp3'
-    },
-
-
-    {
-        path: 'music/23.mp3'
-    },
-
-    {
-        path: 'music/24.mp3'
-    },
-
-
-    {
-        path: 'music/25.mp3'
-    },
-
-
-    {
-        path: 'music/26.mp3'
-    },
-
-
-    {
-        path: 'music/27.mp3'
-    },
-
-    {
-        path: 'music/28.mp3'
-    },
-
-
-    {
-        path: 'music/29.mp3'
-    },
-
-
-    {
-        path: 'music/30.mp3'
-    },
-
-
-    {
-        path: 'music/31.mp3'
-    },
-
-
-    {
-        path: 'music/32.mp3'
-    },
-
-    {
-        path: 'music/33.mp3'
-    },
-
-    {
-        path: 'music/34.mp3'
     }
 
 
