@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/c702e6dbef.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bXVzaWN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+    <link rel="stylesheet" href="./index.css">
+    <title>Music Player</title>
+</head>
+
+<body>
+    <div id="music-box">
+        <div id="music-heading">
+
+        </div>
+        <div id="random-icon">
+            <img id="img" src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG11c2ljfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="under service try after some time">
+        </div>
+        <div id="play-icon">
+            <span id="backward" onclick="previousTrack()"><i class="fas fa-chevron-circle-left"></i></span>
+            <span id="play" onclick="playPauseTrack()"><i class="fas fa-play-circle"></i></span>
+            <span id="forward" onclick="nextTrack()"><i class="fas fa-chevron-circle-right"></i></span>
+        </div>
+
+        <div id="wave">
+            <span id="stroke"></span>
+            <span id="stroke"></span>
+            <span id="stroke"></span>
+            <span id="stroke"></span>
+            <span id="stroke"></span>
+        </div>
+
+    </div>
+
+    <footer id="footer">
+        <a href="https://twitter.com/08_mishra"><i class="fab fa-twitter"></i></a>
+        <a href="https://codepen.io/08_mishra"><i class="fab fa-codepen"></i></a>
+        <a href="https://github.com/08mishra"><i class="fab fa-github"></i></a>
+
+    </footer>
+
+
+
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+
+</html>

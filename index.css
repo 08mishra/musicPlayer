@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+}
+
+#music-box {
+    background: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid rgb(94, 1, 55);
+    width: 30%;
+    height: 450px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 13px 7px rgba(246, 87, 87, 1) inset;
+    color: #AD0870;
+    cursor: pointer;
+    /* animation-name: boxbackground;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.3s; */
+}
+
+
+/* 
+@keyframes boxbackground {
+    0% {
+        background: linear-gradient(45deg, rgba(160, 166, 200, 1) 0%, rgba(205, 61, 61, 1) 100%);
+        opacity: 0.2;
+        transition: all ease;
+    }
+    50% {
+        background: linear-gradient(45deg, rgba(160, 166, 200, 1) 0%, rgba(205, 61, 61, 1) 100%);
+        opacity: 0.5;
+        transition: all ease;
+    }
+    80% {
+        background: linear-gradient(45deg, rgba(160, 166, 200, 1) 0%, rgba(205, 61, 61, 1) 100%);
+        opacity: 0.9;
+        transition: all ease;
+    }
+    100% {
+        background: #ffffff;
+    }
+} */
+
+#music-heading {
+    margin: 20px;
+    padding: 10px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    z-index: 200;
+}
+
+#random-icon {
+    width: 40%;
+    height: 150px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 13px 3px rgba(138, 125, 125, 0.56);
+    margin: 10px;
+    margin-left: 30%;
+    z-index: 200;
+    animation-name: shadow;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+    animation-duration: 0.5s;
+    cursor: pointer;
+}
+
+@keyframes shadow {
+    from {
+        box-shadow: 1px 1px 13px 3px rgba(20, 4, 202, 1);
+    }
+    to {
+        box-shadow: 1px 1px 13px 3px rgba(227, 21, 80, 1);
+    }
+}
+
+#random-icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.rotate {
+    animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+#play-icon {
+    font-size: 40px;
+    color: rgb(42, 42, 219);
+    z-index: 200;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#play-icon i:hover {
+    color: #C420BA;
+}
+
+#wave {
+    height: 80px;
+    width: 80%;
+    overflow: hidden;
+    margin-left: 35%;
+    display: flex;
+    padding: 5px;
+}
+
+#stroke {
+    height: 150%;
+    width: 10px;
+    border-radius: 50px;
+    animation: stroke 1.0s linear infinite;
+    padding: 5px;
+    margin: 5px;
+    /* background: rgb(88, 88, 214); */
+}
+
+@keyframes stroke {
+    0% {
+        height: 20%;
+        background: rgb(88, 88, 214);
+    }
+    100% {
+        height: 100%;
+    }
+}
+
+#stroke:nth-child(1) {
+    animation-delay: 0s;
+}
+
+#stroke:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+#stroke:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+#stroke:nth-child(4) {
+    animation-delay: 0.9s;
+}
+
+#stroke:nth-child(5) {
+    animation-delay: 1.2s;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 45px;
+    padding: 2px;
+    letter-spacing: 10px;
+}
+
+#footer a:hover {
+    color: blue;
+}
+
+@media screen and (max-width:750px) {
+    body {
+        height: 80vh;
+    }
+    #music-box {
+        width: 80%;
+        height: 80vh;
+        margin: 80px auto;
+    }
+    #random-icon {
+        width: 60%;
+        height: 150px;
+        margin-left: 20%;
+    }
+    #wave {
+        margin-left: 32%;
+    }
+}
