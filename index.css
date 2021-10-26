@@ -150,11 +150,11 @@ body {
 
 @keyframes stroke {
     0% {
-        height: 20%;
+        height: 100%;
         background: rgb(88, 88, 214);
     }
     100% {
-        height: 100%;
+        height: 20%;
     }
 }
 
